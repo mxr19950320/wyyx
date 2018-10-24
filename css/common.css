@@ -1,0 +1,94 @@
+html {
+	font:normal normal 14px "Microsoft YaHei","sans-serif";
+	color: #000;
+}
+body,ul,ol,dl,h1,h2,h3 {
+	margin: 0;
+	padding: 0;
+}
+ul,ol {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+.living .living-img .five,
+.shoes .shoes-img .five,
+.clothing .clothing-img .five,
+.dianqi .dianqi-img .five,
+.xihu .xihu-img .five,
+.yinshi .yinshi-img .five,
+.canchu .canchu-img .five,
+.yingtong .yingtong-img .five,
+.wenti .wenti-img .five,
+.tese .tese-img .five{
+    margin: 0;
+}
+/*居家等内容区*/
+.living-img div:first-child,
+.shoes-img div:first-child,
+.clothing-img div:first-child,
+.dianqi-img div:first-child,
+.xihu-img div:first-child,
+.yinshi-img div:first-child,
+.canchu-img div:first-child,
+.yingtong-img div:first-child,
+.wenti-img div:first-child,
+.tese-img div:first-child{
+    overflow: hidden;
+}
+.living-img div img,
+.shoes-img div img,
+.clothing-img div img,
+.dianqi-img div img,
+.xihu-img div img,
+.yinshi-img div img,
+.canchu-img div img,
+.yingtong-img div img,
+.wenti-img div img,
+.tese-img div img{
+    transition: transform 1s;
+}
+.living-img .two:hover img,
+.living-img .three:hover img,
+.living-img .four:hover img,
+.living-img .five:hover img,
+.shoes-img .two:hover img,
+.shoes-img .three:hover img,
+.shoes-img .four:hover img,
+.shoes-img .five:hover img,
+.clothing-img .two:hover img,
+.clothing-img .three:hover img,
+.clothing-img .four:hover img,
+.clothing-img .five:hover img,
+.dianqi-img .two:hover img,
+.dianqi-img .three:hover img,
+.dianqi-img .four:hover img,
+.dianqi-img .five:hover img,
+.xihu-img .two:hover img,
+.xihu-img .three:hover img,
+.xihu-img .four:hover img,
+.xihu-img .five:hover img,
+.yinshi-img .two:hover img,
+.yinshi-img .three:hover img,
+.yinshi-img .four:hover img,
+.yinshi-img .five:hover img,
+.canchu-img .two:hover img,
+.canchu-img .three:hover img,
+.canchu-img .four:hover img,
+.canchu-img .five:hover img,
+.yingtong-img .two:hover img,
+.yingtong-img .three:hover img,
+.yingtong-img .four:hover img,
+.yingtong-img .five:hover img,
+.wenti-img .two:hover img,
+.wenti-img .three:hover img,
+.wenti-img .four:hover img,
+.wenti-img .five:hover img,
+.tese-img .two:hover img,
+.tese-img .three:hover img,
+.tese-img .four:hover img,
+.tese-img .five:hover img{
+    transform: scale(1.1);
+}
